@@ -21,7 +21,7 @@ env:
   ANGULAR_CLI_VERSION: 13
 jobs:
   lint:
-    runs-on: devsecops-test
+    runs-on: self-hosted
     steps:
       - name: "Check out Git repository"
         uses: actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f #v2: v2.3.4 available
