@@ -25,7 +25,7 @@ env:
 
 jobs:
   NodeJS-Build:
-    runs-on: self-hosted
+    runs-on: mindsprint-test
 
     defaults:
       run:
